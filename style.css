@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf3ff;
+    background-image: linear-gradient(#c5dafa 1px,
+    transparent 1px),linear-gradient(90deg, #c5dafa 1px, transparent 1px);
+    background-size:25px 25px;
+    padding: 30px;
+}
+form{
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background: #fffef7;
+    border: 2px solid #9dbce5;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0 #c0d5f0;
+
+}
+h1{
+    color: #174a85;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="reset"]),
+select,  textarea {
+    padding: 10px;
+    margin: 8px 0 18px;
+    border: 1px solid #91afd4;
+    border-radius: 5px;
+    font-size: 15px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    accent-color: #2563eb;
+
+}
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-height: 110px;
+} 
+input[type="submit"],
+input[type="reset"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+    input[type="submit"] {
+        background: #2563eb;
+        color: white;
+
+}
+input:focus, textarea:focus, select:focus{
+    outline: 2px solid #7ba8ed;
+
+}
+@media (max-width: 600px){
+    body{ padding: 12px;}
+    form{ padding: 18px;}
+    h1{ padding: 24px;} 
+}
+h1{ 
+    text-align: center;
+    border-bottom: 3px dashed #e57373;
+    padding-bottom: 15px;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 250px;
+}
+
+
